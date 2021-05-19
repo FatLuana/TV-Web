@@ -1,0 +1,42 @@
+.barra_lateral {
+    width: 190px;
+    background-color: #F9F9F9;
+}
+
+.info {
+    height: auto;
+    padding: 0px;
+}
+
+.barra_lateral_informação {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #626262;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif
+}
+
+.barra_lateral_informação:hover {
+    cursor: pointe;
+    background-color: rgb(238, 238, 238);
+}
+
+.informação_icon {
+    flex: 40%;
+    display: grid;
+    place-items: center;
+}
+
+.informação_titulo {
+    flex: 70%;
+}
+
+.informação_titulo h4 {
+    font-weight: lighter;
+    font-size: 16px;
+}

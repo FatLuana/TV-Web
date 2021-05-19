@@ -1,0 +1,81 @@
+.barra_superior {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+/* LADO ESQUERDO SUPERIOR */
+
+.esquerda {
+  flex: 33%;
+  display: flex;
+  justify-content: left;
+  margin: 20px;
+  align-items: center;
+  color: #626262;
+}
+
+.esquerda #menu {
+  font-size: 60px;
+  height: 50px;
+}
+
+/* CENTRO SUPERIOR */
+
+.centro_superior {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buscar {
+  width: 90%;
+  height: 30px;
+  border: 0.3px none lightgray;
+  font-size: 14px;
+  padding-left: 9px;
+  outline: 0;
+}
+
+.botao_icon {
+  width: 8%;
+  height: 30px;
+  background-color: #fdfdfd;
+  border: none;
+  border: 0.5px none lightgray;
+  border-left: none;
+}
+
+/* LADO DIREITO SUPERIOR */
+
+.direita {
+  flex: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.imagemperfil {
+  margin: 30px;
+  border: none;
+
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.imagem {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+}
+
+.direita_icon {
+  margin: 0px;
+  color: #626262;
+}
